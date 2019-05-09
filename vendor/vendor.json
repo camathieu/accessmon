@@ -1,0 +1,77 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "dvabztWVQX8f6oMLRyv4dLH+TGY=",
+			"origin": "github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "34c6fa2dc70986bccbbffcc6130f6920a924b075",
+			"revisionTime": "2019-03-04T09:57:49Z"
+		},
+		{
+			"checksumSHA1": "P5KyE9QEbAeHLeXzycSF/jS1FIc=",
+			"path": "github.com/hpcloud/tail",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		},
+		{
+			"checksumSHA1": "qn3/Y771JaGG94CvdKa8pIj5hH0=",
+			"path": "github.com/hpcloud/tail/ratelimiter",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		},
+		{
+			"checksumSHA1": "0xM336Lb25URO/1W1/CtGoRygVU=",
+			"path": "github.com/hpcloud/tail/util",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		},
+		{
+			"checksumSHA1": "FiJAmivBCwCbJCC3nPSgTgqGyfU=",
+			"path": "github.com/hpcloud/tail/watch",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		},
+		{
+			"checksumSHA1": "j65V4wnJboT4pfppNC/gjr2Gl+c=",
+			"path": "github.com/hpcloud/tail/winfile",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		},
+		{
+			"checksumSHA1": "LuFv4/jlrmFNnDb/5SCSEPAM9vU=",
+			"origin": "github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib",
+			"path": "github.com/pmezard/go-difflib/difflib",
+			"revision": "34c6fa2dc70986bccbbffcc6130f6920a924b075",
+			"revisionTime": "2019-03-04T09:57:49Z"
+		},
+		{
+			"checksumSHA1": "IIsn0Wdi5rHU8xca+FzDd+YeYlc=",
+			"path": "github.com/stretchr/testify/assert",
+			"revision": "34c6fa2dc70986bccbbffcc6130f6920a924b075",
+			"revisionTime": "2019-03-04T09:57:49Z"
+		},
+		{
+			"checksumSHA1": "IL+W0JvlL7zRZFsSVHiX2hectIs=",
+			"path": "github.com/stretchr/testify/require",
+			"revision": "34c6fa2dc70986bccbbffcc6130f6920a924b075",
+			"revisionTime": "2019-03-04T09:57:49Z"
+		},
+		{
+			"checksumSHA1": "d5tErQREp/cjv/twGXiyr3lkbNs=",
+			"origin": "github.com/hpcloud/tail/vendor/gopkg.in/fsnotify/fsnotify.v1",
+			"path": "gopkg.in/fsnotify/fsnotify.v1",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		},
+		{
+			"checksumSHA1": "z56sI90RWCJhiiLlOExjEARbj7I=",
+			"origin": "github.com/hpcloud/tail/vendor/gopkg.in/tomb.v1",
+			"path": "gopkg.in/tomb.v1",
+			"revision": "a1dbeea552b7c8df4b542c66073e393de198a800",
+			"revisionTime": "2018-05-14T19:44:41Z"
+		}
+	],
+	"rootPath": "github.com/camathieu/accessmon"
+}
