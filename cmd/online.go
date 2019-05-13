@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"io"
+	"math"
 	"time"
 
 	"github.com/camathieu/accessmon"
@@ -31,6 +32,8 @@ func tailLogFile(path string, refreshInterval time.Duration, mon *accessmon.Moni
 
 	ticker := time.Tick(refreshInterval)
 
+	window := int(math.Max(10, float64(refreshInterval)))
+
 	go func() {
 	LOOP:
 		for {
@@ -43,7 +46,7 @@ func tailLogFile(path string, refreshInterval time.Duration, mon *accessmon.Moni
 				// Update display
 				cleanDisplay()
 
-				deadline := time.Now().Add(-refreshInterval)
+				deadline := time.Now().Add(-time.Duration(window))
 				if mon.Last().After(deadline) {
 					displayStats(mon.Stats(refreshInterval, 1), mon.Last(), refreshInterval)
 				} else {
